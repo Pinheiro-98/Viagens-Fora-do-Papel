@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Viagens.css">
+  <title>Viagens Fora do Papel</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark lilac fixed-top">
+    <!--Barra de navegação será escura e fixada no topo-->
+    <div class="container-fluid">
+      <i class="fa-solid fa-books"></i><a class="navbar-brand" href="#">Viagens Fora do Papel</a>
+      <!--Título da Barra-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--O button é o ícone da lateral direita-->
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bem Vindos!</h1>
+          <!--Titlo do menu interno-->
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!--Especifica a quantidade de opções que terá o menu lateral-->
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-6">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#somos">Quem Somos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Nossos Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#motivo">Por que Viajar</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#dicas">Dicas de Viagens</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-12 col-lg-6">
+
+        <div class="complemment" id="menu">
+          <h1>Aqui seus sonhos se tornam realidade!</h1>
+          <p>
+            Nós somos uma agência que faz você realizar seus sonhos, tirando todas suas viagens fora do papel e fazendo
+            tudo acontecer.<br>
+            Estamos aqui para te ajudar com o que precisar, pois viajar não é luxo, é necessidade e disso nós
+            entendemos.<br>
+            Portanto, deixe nos ajudar fazer sua viagem ser tão boa quanto seu melhor sonho.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6 ">
+        <img src="Fora_do_Papel.png" class="img-thumbnail" alt="Logo do site Viagens Fora do Papel" />
+      </div>
+    </div>
+  </div>
+  <div class="title mt-5">
+    <h2>Nossas Viagens</h2>
+  </div>
+
+  <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"
+          class=""></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"
+          class=""></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="Boca da onca.jpg" class="img-thumbnail" alt="Foto da Boca da Onça">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Boca da Onça</h3>
+            <h4>Bonito.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Canoa Quebrada.jpg" class="img-thumbnail" alt="Foto de Canoa Quebrada">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Canoa Quebrada</h3>
+            <h4>Aracati.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Cidade de pedra.jpg" class="img-thumbnail" alt="Foto da Cidade de Pedra">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Cidade de Pedra</h3>
+            <h4>Chapada dos Guimarães.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Chichen Itza.jpeg" class="img-thumbnail" alt="Foto de Chichen Itzá">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Chichen Itzá</h3>
+            <h4>Yucatan.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Maragogi.jpg" class="img-thumbnail" alt="Foto do Caribe Brasileiro">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Caribe Brasileiro</h3>
+            <h4>Maragogi.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Mirante da janela.jpg" class="img-thumbnail" alt="Foto do Mirante da Janela">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mirante da Janela</h3>
+            <h4>Chapada dos Veadeiros.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Mosteiro.jpg" class="img-thumbnail" alt="Foto do Mosteiro Zen Budista">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mosteiro Zen Budista</h3>
+            <h4>Ibiraçu.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Lagoa misteriosa.jpg" class="img-thumbnail" alt="Foto da Lagoa Misteriosa">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Lagoa Misteriosa</h3>
+            <h4>Bonito.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Embalse.jpg" class="img-thumbnail" alt="Foto do Embalse El Yeso">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Embalse El Yeso</h3>
+            <h4>Chile.</h4>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Porto da ilha.jpg" class="img-thumbnail" alt="Foto do Eco Park Porto da Ilha">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Eco Park Porto da Ilha</h3>
+            <h4>Bonito.</h4>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="title mt-3">
+    <div id="servicos">
+      <h2>Confira Nossos Serviços</h2>
+      <a href="#menu"><i class="bi bi-arrow-bar-up"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Seu carro.jpg"
+          class="img-thumbnail" alt="Alugue seu carro aqui" />
+        <div class="box">
+          <a
+            href="https://b2b.mobility.com.br/2xt?Pid=dXRtX21lZGl1bT1hZmlsaWFkbyZwY3JpZD00NzU1JnV0bV9zb3VyY2U9c2l0ZS1ibG9n">
+            Alugue
+            seu Carro Aqui
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Sua mala.jpg" class="img-thumbnail"
+          alt="Alugue sua mala aqui" />
+        <div class="box">
+          <a href="https://getmalas.com.br/?utm_medium=afiliado&pcrid=4755&utm_source=site-blog">
+            Alugue sua Mala
+            Aqui
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Seu chip.jpg"
+          class="img-thumbnail" alt="Escolha Seu chip" />
+        <div class="box">
+          <a
+            href="https://viajeconectado.com/?utm_medium=parceirospromo&pcrid=4755&utm_source=site-blog&ref=parceirospromo ">
+            Compre o Chip Aqui-Todos Países
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Escolha seu pacote.jpg" class="img-thumbnail" alt="Escolha seu Pacote" />
+        <div class="box">
+          <a href="https://br.onertravel.com/viagensforadopapel/home">Escolha seu Pacote</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Seguro Viagem_edit_69380634975871.jpg" class="img-thumbnail" alt="Seguro Viagem" />
+        <div class="box">
+          <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=4755&utm_source=site-blog"> Seguro
+            Viagem</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="passagem aérea.jpg" class="img-thumbnail" alt="Passagem Aérea Barata Aqui" />
+        <div class="box">
+          <a href="https://www.passagenspromo.com.br/?utm_medium=afiliado&pcrid=4755&utm_source=site-blog"> Passagem Aérea Barata Aqui</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="title">
+    <div id="motivo">
+      <h2>Por que Viajar?</h2>
+      <a href="#menu"><i class="bi bi-arrow-bar-up"></i></a>
+    </div>
+  </div>
+  <div id="motivos">
+    <video width="720" height="530" controls>
+      <source src="Motivacional.mp4" type="video/mp4">
+      <source src="Motivacional.ogg" type="video/ogg">
+    </video>
+  </div>
+
+  <div class="title mt-2">
+    <div id="somos">
+      <h2>Quem Somos</h2>
+      <a href="#menu"><i class="bi bi-arrow-bar-up"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Agencia.png" class="img-thumbnail" alt="Por que Contratar Agência para a sua Viagem?" />
+        <div class="box">
+          <a href="https://www.instagram.com/p/CeZYAWYJCoJ/?igshid=YmMyMTA2M2Y%3D">Saiba Mais</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Produtos.png" class="img-thumbnail" alt="Você Conhece Nossos Produtos?" />
+        <div class="box">
+          <a href="https://www.instagram.com/p/CiFy1VuuYCB/?igshid=YmMyMTA2M2Y%3D">Saiba Mais</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 mt-4">
+        <div class="boxN">
+          <h3>Missão:</h3>
+          <span>
+            Intermediar o seu sonho fazendo-o acontecer na vida real, te mostrando que viajar não é luxo, e sim
+            necessidade.
+          </span>
+          <h3>Visão:</h3>
+          <span>
+            Levar pessoas com sonhos ao mundo inteiro.
+          </span>
+          <h3>Valores:</h3>
+          <span>
+            Viagens Fora do Papel.
+          </span>
+          <h3>E quem sou eu?</h3>
+          <span>
+            Sou um menino que “começou a andar ontem” e logo em seguida descobriu o que é a liberdade, hoje faço disso
+            profissão, querendo que todos e todas levem essa sensação para suas vidas.
+            Eu sou uma pessoa nova que busca sempre novas experiências na vida, e desde muito novo venho tendo aventuras
+            pelo mundo e essas aventuras já me mostraram tantas coisas, que às vezes parece que já vivi umas 3 vidas.
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="title mt-2">
+    <div id="dicas">
+      <h2>Dicas de Viagens</h2>
+      <a href="#menu"><i class="bi bi-arrow-bar-up"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Passaporte.jpg"
+          class="img-thumbnail" alt="Como emitir o passaporte junto a Polícia Federal." />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/CTqVlCfssIt/">Emita o passaporte junto a PF</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Conforto.jpg"
+          class="img-thumbnail" alt="Como ficar mais confortável no avião?" />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/CaGFrv3PoEn/">Fique mais confortável no avião</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Visto.jpg" class="img-thumbnail"
+          alt="Preciso de visto para viajar?" />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/CiTDKJuIcG9/?igshid=YmMyMTA2M2Y%3D">Preciso de visto para viajar? </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Seguro.jpg"
+          class="img-thumbnail" alt="Motivos para contratar o Seguro Viagem" />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/CfysEJzom9q/?igshid=YmMyMTA2M2Y%3D">Motivos para contratar o Seguro
+            Viagem</a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img
+          src="MSC.jpg"
+          class="img-thumbnail" alt="MSC Grandiosa! Primeira vez" />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/ClttWlqpZfV/?igshid=YmMyMTA2M2Y%3D">MSC Grandiosa! Primeira vez</a>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-lg-4 mt-4 mb-5">
+        <img src="Roteiro_edit_70624647111098.jpg"
+          class="img-thumbnail" alt="Monte seu próprio roteiro." />
+        <div class="box1">
+          <a href="https://www.instagram.com/p/CXMq57FpkS2/">Monte seu próprio roteiro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-71116292-496e-47ae-ab30-aec1fb8fe73c"></div>
+
+  <div id="contato" class="faleConosco">
+    <a href="mailto:viagensforadopapel@gmail.com" target=" _blank"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.facebook.com/ViagensForaDoPapel" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/viagensforadopapel/" target=" _blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://linkfly.to/viagensforadopapel" target="_blank"><i class="fa-solid fa-link"></i></a>
+    <a href="https://t.me/viagensforadopapel" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=5511993613088" target="_blank"><i
+        class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.youtube.com/channel/UCccNFq1vXKXzHqZNaWZYzyQ" target="_blank"><i
+        class="fa-brands fa-youtube"></i></a>
+  </div>
+</body>
+
+</html>
